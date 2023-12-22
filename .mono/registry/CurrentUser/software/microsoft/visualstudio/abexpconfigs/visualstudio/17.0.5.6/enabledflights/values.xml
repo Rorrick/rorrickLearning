@@ -1,0 +1,17 @@
+﻿<values>
+  <value name="VisualStudio_Ids" type="string-array">
+    <string>chat_aa_t</string>
+    <string>Roslyn.DeferCreatingRecoverableText</string>
+    <string>Roslyn.DisableBackgroundCompilation</string>
+    <string>Roslyn.DisableRecoverableText</string>
+    <string>Roslyn.DisableReferenceManagerRecoverableMetadata</string>
+    <string>TypeImportCompletion.NotUsed</string>
+    <string>variable</string>
+    <string>vscp-gpt4-t</string>
+    <string>vsformacaa</string>
+    <string>vsttk</string>
+  </value>
+  <value name="_Ids" type="string-array">
+    <string>VisualStudio</string>
+  </value>
+</values>

@@ -1,0 +1,57 @@
+'Log files:
+/Users/bulksms-rorrick/.npm/_logs/2023-12-19T13_36_37_245Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: @angular/common@15.2.10
+Found: @angular/core@15.0.4
+node_modules/@angular/core
+  peer @angular/core@"15.0.4" from @angular/animations@15.0.4
+  node_modules/@angular/animations
+    peer @angular/animations@"^15.0.0 || ^16.0.0" from @angular/material@15.0.3
+    node_modules/@angular/material
+      @angular/material@"^15.0.3" from the root project
+    @angular/animations@"^15.0.4" from the root project
+  peer @angular/core@"^14.0.0 || ^15.0.0" from @angular/cdk@14.2.7
+  node_modules/@angular/cdk
+    @angular/cdk@"^14.2.7" from the root project
+  peer @angular/core@"^15.0.0 || ^16.0.0" from @angular/material@15.0.3
+  node_modules/@angular/material
+    @angular/material@"^15.0.3" from the root project
+  peer @angular/core@">=9.0.0" from highcharts-angular@3.0.0
+  node_modules/highcharts-angular
+    highcharts-angular@"^3.0.0" from the root project
+  peer @angular/core@"^15.0.0" from ng-recaptcha@11.0.0
+  node_modules/ng-recaptcha
+    ng-recaptcha@"^11.0.0" from the root project
+
+Could not resolve dependency:
+peer @angular/core@"15.2.10" from @angular/common@15.2.10
+node_modules/@angular/common
+  peer @angular/common@"^14.0.0 || ^15.0.0" from @angular/cdk@14.2.7
+  node_modules/@angular/cdk
+    @angular/cdk@"^14.2.7" from the root project
+  peer @angular/common@"^15.0.0 || ^16.0.0" from @angular/material@15.0.3
+  node_modules/@angular/material
+    @angular/material@"^15.0.3" from the root project
+  peer @angular/common@">=9.0.0" from highcharts-angular@3.0.0
+  node_modules/highcharts-angular
+    highcharts-angular@"^3.0.0" from the root project
+
+Conflicting peer dependency: @angular/core@15.2.10
+node_modules/@angular/core
+  peer @angular/core@"15.2.10" from @angular/common@15.2.10
+  node_modules/@angular/common
+    peer @angular/common@"^14.0.0 || ^15.0.0" from @angular/cdk@14.2.7
+    node_modules/@angular/cdk
+      @angular/cdk@"^14.2.7" from the root project
+    peer @angular/common@"^15.0.0 || ^16.0.0" from @angular/material@15.0.3
+    node_modules/@angular/material
+      @angular/material@"^15.0.3" from the root project
+    peer @angular/common@">=9.0.0" from highcharts-angular@3.0.0
+    node_modules/highcharts-angular
+      highcharts-angular@"^3.0.0" from the root project
+
+Fix the upstream dependency conflict, or retry
+this command with --force or --legacy-peer-deps
+to accept an incorrect (and potentially broken) dependency resolution.

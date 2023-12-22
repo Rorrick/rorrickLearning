@@ -1,0 +1,12 @@
+﻿<values>
+  <value name="TypeImportCompletion.NotUsed" type="string">false</value>
+  <value name="vscp-gpt4-t" type="string">true</value>
+  <value name="chat_aa_t" type="string">true</value>
+  <value name="Roslyn.DisableBackgroundCompilation" type="string">true</value>
+  <value name="Roslyn.DisableReferenceManagerRecoverableMetadata" type="string">true</value>
+  <value name="variable" type="string">false</value>
+  <value name="vsttk" type="string">true</value>
+  <value name="vsformacaa" type="string">false</value>
+  <value name="Roslyn.DeferCreatingRecoverableText" type="string">true</value>
+  <value name="Roslyn.DisableRecoverableText" type="string">true</value>
+</values>
